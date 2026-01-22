@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
-import node from '@astrojs/node';
+
 import tailwind from '@astrojs/tailwind';
+
+import vercel from '@astrojs/vercel';
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,9 +12,7 @@ export default defineConfig({
         include: ['**/components/**/*'],
     }), tailwind()],
     output: 'server',
-    adapter: node({
-        mode: 'standalone',
-    }),
+    adapter: vercel(),
     vite: {
         optimizeDeps: {
             exclude: ['convex'],

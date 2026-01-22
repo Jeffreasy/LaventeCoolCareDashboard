@@ -1,0 +1,6 @@
+{
+    "framework": "astro",
+    "projectSettings": {
+        "rootDirectory": "web"
+    }
+}
