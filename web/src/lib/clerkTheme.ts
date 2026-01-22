@@ -19,11 +19,11 @@ export const clerkDeepGlassTheme = {
         header: "hidden", // We already have a custom header in the .astro file
 
         // Inputs
-        formFieldLabel: "text-slate-400 font-medium",
-        formFieldInput: "bg-slate-950/50 border border-white/10 focus:border-indigo-500/50 transition-all text-slate-200 ring-0 focus:ring-2 focus:ring-indigo-500/20",
+        formFieldLabel: "text-slate-400 font-medium mb-1.5 block",
+        formFieldInput: "w-full bg-slate-950/50 border border-white/10 focus:border-indigo-500/50 transition-all text-slate-200 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-500/20",
 
         // Buttons
-        formButtonPrimary: "bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/20 border-none",
+        formButtonPrimary: "w-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/20 border-none py-3 rounded-xl font-bold",
         socialButtonsBlockButton: "bg-white/5 border border-white/10 hover:bg-white/10 text-slate-200",
 
         // Links & Footer
